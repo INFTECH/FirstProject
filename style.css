@@ -1,0 +1,107 @@
+td{
+	padding-top:0%;
+	padding-left:5%;
+	padding-right:5%;  
+}
+
+a{
+	margin-left:50px;
+	text-decoration: none;
+	color:white;
+}
+body{
+
+        background-size: cover; 
+	background-image: url(images//bg/bg.jpeg);
+         background-repeat: no-repeat; 
+   background-attachment: fixed;
+   background-position: top;
+   background-size: cover;
+   -o-background-size:cover;
+   -webkit-background-size:cover;
+   text-align: center;
+
+}
+
+.gruz{
+	font-size:25px;
+	color:black;
+
+}
+.usl {
+	text-align:center;
+   	margin-left: 13%;
+ 	margin-right: 13%;
+	background-color: white;
+}
+
+.images { 
+	width: 90%;
+}
+
+.since{
+	color:#DE5145;
+}
+ul {
+	margin-bottom: 1.5em;
+}
+
+.imageList {
+	list-style: none;
+}
+.imageList li{
+	
+}
+#box2 {
+	margin-right:10px;
+	text-align:left;
+}
+
+.nc {
+	text-align: center;
+	font-size: 24px;
+	color: black;
+	padding: 5px;
+	width: 30%;
+	margin-left: 35%;
+}
+
+.p1, .p2 {
+	width: 50%;
+	text-align: center;
+}
+
+.p1 {
+	float: left;
+}
+
+.p2 {
+	float: right;
+}
+
+.p1 img, .p2 img {
+	height: 200px;
+}
+
+.pname {
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 40%;
+	margin-left: 30%;
+}
+
+.pphone {
+	color: red;
+	font-size: 18px;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+.t1{
+	text-align:left;
+}
+.t2{
+	text-align:right;
+	margin-left:170px;
+}
