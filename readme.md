@@ -1,3 +1,3 @@
-﻿#Graver&Kadac inc.
+﻿#PerevezemGruz inc.
 =====================
 Our project is based on delivery parcels across Belarus. If you rely on our goods,you can always be sure,that parcel will be delivered to addresse in time,and the cost of trucking in our company will surprise you by availability and advantageous cooperation conditions. We suggest prices lower,than our competitiors suggest, in addition to this, our quality of service is always equal to the occasion. You can find all the details on our site.
