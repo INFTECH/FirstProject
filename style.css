@@ -4,11 +4,16 @@ td{
 	padding-right:5%;  
 }
 
-a{
+.menu a{
 	margin-left:50px;
 	text-decoration: none;
 	color:white;
 }
+
+.registration{
+	text-align: right;	
+}
+
 body{
 
         background-size: cover; 
@@ -46,62 +51,75 @@ ul {
 	margin-bottom: 1.5em;
 }
 
-.imageList {
-	list-style: none;
-}
-.imageList li{
-	
-}
-#box2 {
-	margin-right:10px;
-	text-align:left;
-}
 
-.nc {
+.page{
 	text-align: center;
-	font-size: 24px;
-	color: black;
-	padding: 5px;
-	width: 30%;
-	margin-left: 35%;
-}
-
-.p1, .p2 {
-	width: 50%;
-	text-align: center;
-}
-
-.p1 {
+	width: 500px;
+	height: 320px;
 	float: left;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-left: -250px;
+	margin-top: -160px;
+	border: 15px solid rgba(99,83,93,0.7);
+	background-color: rgba(99,83,93,0.85);
 }
 
-.p2 {
-	float: right;
+.field{
+	text-align: right;
+	clear: both;
+	line-height: 25px;
 }
 
-.p1 img, .p2 img {
-	height: 200px;
+label, span{
+	float: left;
+	padding-right: 10px;
 }
 
-.pname {
-	font-size: 20px;
-	padding: 5px;
+input{
+	width: 178px;
+}
+
+button{
 	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 40%;
-	margin-left: 30%;
 }
 
-.pphone {
-	color: red;
-	font-size: 18px;
-	transition: 0.3s ease;
-	cursor: pointer;
+.sign{
+	text-align: center;
+	width: 500px;
+	height: 190px;
+	float: left;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-left: -250px;
+	margin-top: -95px;
+	border: 15px solid rgba(99,83,93,0.7);
+	background-color: rgba(99,83,93,0.85);
 }
-.t1{
-	text-align:left;
+
+.but a{
+	/*text-decoration: none;*/
+	color: white;
 }
-.t2{
-	text-align:right;
-	margin-left:170px;
+.req{
+	text-align: center;
+	width: 500px;
+	height: 290px;
+	float: left;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-left: -250px;
+	margin-top: -150px;
+	border: 15px solid rgba(99,83,93,0.7);
+	background-color: rgba(99,83,93,0.85);
+}
+.avto{
+	color:white;
+}
+.qwer{
+	margin-left:50px;
+	margin-right: 100px;
 }
