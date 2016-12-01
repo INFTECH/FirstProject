@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<requests>
+	<application id=" ">
+		<sender name=" " surname=" " login=" ">
+			<address></address>
+		</sender>
+		<recipient>
+			<address></address>
+			<name></name>
+			<surname></surname>
+			<cellphone></cellphone>
+		</recipient>
+		<rate name=" ">
+			<auto></auto>
+			<price></price>
+		</rate>
+		<cargo weight=" ">
+			<view></view>
+			<model></model>
+			<amount></amount>
+		</cargo>
+	</application>
+</requests>
