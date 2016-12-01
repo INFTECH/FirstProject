@@ -3,6 +3,11 @@ td{
 	padding-left:5%;
 	padding-right:5%;  
 }
+ 
+.menu{
+	border: 1px solid rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.3);
+}
 
 .menu a{
 	margin-left:50px;
@@ -11,7 +16,8 @@ td{
 }
 
 .registration{
-	text-align: right;	
+	text-align: right;
+	margin-right: 30px;	
 }
 
 body{
@@ -25,8 +31,10 @@ body{
    -o-background-size:cover;
    -webkit-background-size:cover;
    text-align: center;
+   background-color: rgba(99,83,93,0.85);
 
 }
+
 
 .gruz{
 	font-size:25px;
@@ -34,10 +42,12 @@ body{
 
 }
 .usl {
+	color: white;
 	text-align:center;
    	margin-left: 13%;
  	margin-right: 13%;
-	background-color: white;
+	border: 15px solid rgba(99,83,93,0.4);
+	background-color: rgba(99,83,93,0.4);
 }
 
 .images { 
@@ -51,11 +61,25 @@ ul {
 	margin-bottom: 1.5em;
 }
 
+.cont{
+	
+	text-align: center;
+	width: 400px;
+	height: 320px;
+	/*float: left;*/
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-left: -250px;
+	margin-top: -160px;
+	border: 15px solid rgba(99,83,93,0.7);
+	background-color: rgba(99,83,93,0.85);
 
+}
 .page{
 	text-align: center;
 	width: 500px;
-	height: 320px;
+	height: 360px;
 	float: left;
 	top: 50%;
 	left: 50%;
@@ -106,7 +130,7 @@ button{
 .req{
 	text-align: center;
 	width: 500px;
-	height: 290px;
+	height: 260px;
 	float: left;
 	top: 50%;
 	left: 50%;
@@ -120,6 +144,6 @@ button{
 	color:white;
 }
 .qwer{
-	margin-left:50px;
-	margin-right: 100px;
+	margin-left:9%;
+	margin-right: 55%;
 }
