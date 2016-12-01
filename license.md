@@ -1,4 +1,4 @@
-Copyright (c) 2016 Graver&Kadac inc.
+Copyright (c) 2016 PerevezemGruz inc.
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
