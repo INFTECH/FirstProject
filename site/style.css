@@ -1,18 +1,16 @@
-td{
-	padding-top:0%;
-	padding-left:5%;
-	padding-right:5%;  
-}
- 
+
+
 .menu{
-	border: 1px solid rgba(0,0,0,0.3);
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(255,255,255,0.8);
+	border: 7px solid rgba(255,255,255,0.0001);
 }
 
 .menu a{
 	margin-left:50px;
+	margin-bottom: 15%;
 	text-decoration: none;
-	color:white;
+	color:black;
+	font-weight: bold;
 }
 
 .registration{
@@ -20,21 +18,42 @@ td{
 	margin-right: 30px;	
 }
 
-body{
-
-        background-size: cover; 
-	background-image: url(images//bg/bg.jpeg);
-         background-repeat: no-repeat; 
-   background-attachment: fixed;
-   background-position: top;
-   background-size: cover;
-   -o-background-size:cover;
-   -webkit-background-size:cover;
-   text-align: center;
-   background-color: rgba(99,83,93,0.85);
-
+.kursiv{
+	font-style: italic;
 }
 
+.spisok{
+	text-align: left;
+}
+
+li{
+	margin-bottom: 25px;
+}
+
+#zhirniy{
+	font-size: 23px;
+}
+
+#zz{
+	font-size: 26px;
+}
+
+body{
+	margin:0px;
+    background-size: cover; 
+	background-image: url(images//bg/bg.jpeg);
+	background-repeat: no-repeat; 
+    background-attachment: fixed;
+   /*background-position: top;*/
+   /*background-size: cover;*/
+   -o-background-size:cover;
+   /*-webkit-background-size:cover;*/
+   text-align: center;
+}
+
+.q{
+	margin-left: 3.7%;
+}
 
 .gruz{
 	font-size:25px;
@@ -44,10 +63,10 @@ body{
 .usl {
 	color: white;
 	text-align:center;
-   	margin-left: 13%;
- 	margin-right: 13%;
-	border: 15px solid rgba(99,83,93,0.4);
-	background-color: rgba(99,83,93,0.4);
+  /* 	margin-left: 3%;
+ 	margin-right: 3%;*/
+	border: 15px solid rgba(99,83,93,0.001);
+	background-color: rgba(99,83,93,0.7);
 }
 
 .images { 
@@ -76,6 +95,8 @@ ul {
 	background-color: rgba(99,83,93,0.85);
 
 }
+
+
 .page{
 	text-align: center;
 	width: 500px;
