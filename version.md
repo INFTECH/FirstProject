@@ -4,3 +4,5 @@ First version of our project
 Full site tranformation and cosmetic revision
 #version 0.1.1
 Small cosmetic revision
+#version 0.1.2
+Cosmetic update of homepage
