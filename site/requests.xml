@@ -11,14 +11,11 @@
 			<surname></surname>
 			<cellphone></cellphone>
 		</recipient>
+		<cargo comment=" ">
+			<type></type>
+		</cargo>
 		<rate name=" ">
 			<auto></auto>
-			<price></price>
 		</rate>
-		<cargo weight=" ">
-			<type></type>
-			<model></model>
-			<amount></amount>
-		</cargo>
 	</application>
 </requests>
