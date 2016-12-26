@@ -1,170 +1,103 @@
 
+.body{
+	text-align: center;
 
-.menu{
-	background-color: rgba(255,255,255,0.8);
-	border: 7px solid rgba(255,255,255,0.0001);
 }
 
-.menu a{
-	margin-left:50px;
-	margin-bottom: 15%;
-	text-decoration: none;
-	color:black;
-	font-weight: bold;
+img{
+	height: 100%;
+	width: 100%;
 }
 
-.registration{
-	text-align: right;
-	margin-right: 30px;	
+.navbar{
+	margin-bottom: 0px !important;
 }
 
-.kursiv{
-	font-style: italic;
+.tablecolor {
+	background-color: #EBEBEB;
+	border: 1px solid black;
 }
 
-.spisok{
-	text-align: left;
+.uslugi{
+	margin-top: 5%;
+}
+
+h4{
+	font-size: 19px;
+	color:#50605D;
+}
+
+h3{
+	color:#50605D;
+	font-size:35px;
+}
+
+td{
+	width: 25%;
+	border:1px solid #F2F2F2;
+} 
+
+
+.main{
+/*	margin-left:5%;
+	margin-right:5%;
+*/		background-color: #F2F2F2;
+		padding:1.7%;
+
+}
+
+
+.coll{
+	 color:#7C8C89;
+}
+
+.coll1{
+	color:#50605D;
+}
+
+.intable{
+    font-size: 20px;
+}   
+
+.headerr{
+	position: fixed;
+	width: 100%;
+	border-radius: 0px !important;
+}
+
+.left{
+    /*text-align: left !important;*/
+    margin-left: 5%;
+}
+
+.right{
+    /*text-align: right !important;*/
+    margin-right: 5%;
 }
 
 li{
-	margin-bottom: 25px;
+	text-align: left;
+	margin-bottom: 1%;
 }
 
-#zhirniy{
-	font-size: 23px;
+.p{
+	margin-bottom:1.3%;
 }
 
-#zz{
-	font-size: 26px;
+.fixblock {
+margin: 0 auto;
+background-color: #FFFFFF;
+width: 100%; 
+height: 20%;
+border:0px solid #000;
+bottom:0px; 
+	font-size:15px; 
+	text-align:center; 
+	padding: 1.3%;
+		background-color: #EBEBEB;
 }
 
-body{
-	margin:0px;
-    background-size: cover; 
-	background-image: url(images//bg/bg.jpeg);
-	background-repeat: no-repeat; 
-    background-attachment: fixed;
-   /*background-position: top;*/
-   /*background-size: cover;*/
-   -o-background-size:cover;
-   /*-webkit-background-size:cover;*/
-   text-align: center;
+.image{
+	margin-top:3%;
 }
 
-.q{
-	margin-left: 3.7%;
-}
-
-.gruz{
-	font-size:25px;
-	color:black;
-
-}
-.usl {
-	color: white;
-	text-align:center;
-  /* 	margin-left: 3%;
- 	margin-right: 3%;*/
-	border: 15px solid rgba(99,83,93,0.001);
-	background-color: rgba(99,83,93,0.7);
-}
-
-.images { 
-	width: 90%;
-}
-
-.since{
-	color:#DE5145;
-}
-ul {
-	margin-bottom: 1.5em;
-}
-
-.cont{
-	
-	text-align: center;
-	width: 400px;
-	height: 320px;
-	/*float: left;*/
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	margin-left: -250px;
-	margin-top: -160px;
-	border: 15px solid rgba(99,83,93,0.7);
-	background-color: rgba(99,83,93,0.85);
-
-}
-
-
-.page{
-	text-align: center;
-	width: 500px;
-	height: 360px;
-	float: left;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	margin-left: -250px;
-	margin-top: -160px;
-	border: 15px solid rgba(99,83,93,0.7);
-	background-color: rgba(99,83,93,0.85);
-}
-
-.field{
-	text-align: right;
-	clear: both;
-	line-height: 25px;
-}
-
-label, span{
-	float: left;
-	padding-right: 10px;
-}
-
-input{
-	width: 178px;
-}
-
-button{
-	margin-top: 10px;
-}
-
-.sign{
-	text-align: center;
-	width: 500px;
-	height: 190px;
-	float: left;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	margin-left: -250px;
-	margin-top: -95px;
-	border: 15px solid rgba(99,83,93,0.7);
-	background-color: rgba(99,83,93,0.85);
-}
-
-.but a{
-	/*text-decoration: none;*/
-	color: white;
-}
-.req{
-	text-align: center;
-	width: 500px;
-	height: 260px;
-	float: left;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	margin-left: -250px;
-	margin-top: -150px;
-	border: 15px solid rgba(99,83,93,0.7);
-	background-color: rgba(99,83,93,0.85);
-}
-.avto{
-	color:white;
-}
-.qwer{
-	margin-left:9%;
-	margin-right: 55%;
-}

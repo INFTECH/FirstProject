@@ -1,64 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Грузоперевозки Минск</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<!--   <script src="jquery-3.1.1.min" type="text/javascript"></script>
+  <script src="bootstrap.min" type="text/javascript"></script>
+  <script src="npm.js" type="text/javascript"></script> -->
+  <title>Грузоперевозки Минск</title>
 </head>
 <body>
-	<header class="menu">
-		<nav id="top">
-			<span>
-				<a href="#top">Главная</a>
-			</span>
-				<span>
-				<a href="request.html">Оформление заявки</a>
-			</span>
-			<span>
-				<a href=cont.html>Контакты</a>
-			</span>
-		</nav>
-		<div class="registration">
-			<a href="signin.html">Вход</a>
-			<a href=registration.html>Регистрация</a>
-		</div>
-	</header>
-	<div class="usl">
-		<h1>Грузоперевозки в Минске</h1>
-		<h3>ПеревеземГруз - перевозчик, которому доверяют тысячи</h3>
-		<div id="zhirniy">Услуги нашей компании:</div><h4 class="kursiv">Наша компания осуществляет грузовые перевозки по городу Минску и за его пределами. </h4>
-	<div class="spisok">
-		<ul type="circle">
-			<li>Мебельная перевозка в Минске – вывоз старых конструкций, а также помощь в офисном и квартирном переезде. У нас вы можете заказать услугу профессионального монтажа и демонтажа, а также упаковку любых изделий</li>
+  <header class="headerr">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand marg" href="#">Грузоперевозки Минск</a> -->
+        </div>
 
-			<li>Переезд в Минске – офис, дача, квартира. Мы осуществляем полноценный переезд под ключ, освобождая клиентов от всех хлопот и проблем, связанных с перевозками. Мы аккуратно и быстро перевезем всю мебель, хрупкие и бьющиеся предметы, технику, так же осуществляя после уборку помещений</li>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Главная <span class="sr-only">(current)</span></a></li>
+            <li><a href="#" class="active">Оформить заявку</a></li>
+            <li><a href="#" class="active">Контакты</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Вход</a></li>
+            <li><a href="#">Регистрация</a></li>
+            <li class="dropdown">
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+  <div class="body">
+    <img class="image" src="truck.jpg">
+    <table>
+      <tr class="tablecolor">
+        <td>
+          <h4>Мы гарантируем быстроту при выполнении каждого заказа</h4>
+        </td>
+        <td>
+          <h4>Предоставляем гарантии сохранности вашего габаритного имущества</h4>
+        </td>
+        <td><h4>В нашем распоряжении имеется собственный автопарк и техническая база</h4>
+        </td>
+        <td>
+          <h4> Мы предлагаем конкурентные и весьма выгодные цены на все услуги</h4>
+        </td>
+      </tr>
+    </table>
+    <div class="main">
+    <h3 class="p">Услуги нашей компании:</h3>
+    <table class="uslugi">
+    <tr>
+      <td><img src="meb.jpg" width="50%" height="50%"></td>
+      <td><h1 class="coll1 left">Мебельная перевозка в Минске</h1><h1 class="intable coll left">Вывоз старых конструкций, а также помощь в офисном и квартирном переезде. У нас вы можете заказать услугу профессионального монтажа и демонтажа, а также упаковку любых изделий</h1></td>
+      </tr>
+      <tr>
+      <td><h1 class="coll1 right">Переезд в Минске</h1><h1 class="intable coll right">Офис, дача, квартира. Мы осуществляем полноценный переезд под ключ, освобождая клиентов от всех хлопот и проблем, связанных с перевозками. Мы аккуратно и быстро перевезем всю мебель, хрупкие и бьющиеся предметы, технику, так же осуществляя после уборку помещений</h1></td>
+      <td><img src="office.jpg"></td>
+      </tr>
+      <tr>
+        <td><img src="piano.jpg"></td>
+        <td><h1 class="coll1 left">Быстрая и безопасная перевозка предметов быта</h1><h1 class="intable coll left">Домашних принадлежностей, бытовой техники, компьютерной и цифровой техники, специализированных инструментов, например, музыкальных, а также домашнего оборудования</h1></td>
+      </tr>
+      <tr>
+      <td><h1 class="coll1 right">Стройматериал</h1><h1 class="intable coll right">Организация перевозок строительных материалов, а также отделочных изделий при максимальной длине в 6 метров</h1></td>
+      <td><img src="stroi.jpg"></td>
+      </tr>
+      <tr>
+        <td><img src="tam.jpg"></td>
+        <td><h1 class="coll1 left">Перевозка комерции</h1><h1 class="intable coll left">Осуществляем перевозку коммерческих товаров и продукции – на таможню, в складские помещения, перевозка продукции по торговым точкам</h1></td>
+      </tr>
+      <tr>
+        <td><h1 class="coll1 right">Мусор</h1><h1 class="intable right coll">Вывоз строительного мусора</h1></td>
+              <td><img src="mus.jpg"></td>
+      </tr>
+       </table>
+          </div>
+    </div>
 
-			<li>Быстрая и безопасная перевозка предметов быта – домашних принадлежностей, бытовой техники, компьютерной и цифровой техники, специализированных инструментов, например, музыкальных, а также домашнего оборудования</li>
-
-			<li>Грузоперевозки по Минску и Беларуси любого размера и веса – тоннаж до 3 т, объемные размеры – до 20 м3</li>
-
-			<li>Организация перевозок строительных материалов, а также отделочных изделий при максимальной длине в 6 метров</li>
-
-			<li>Осуществляем перевозку коммерческих товаров и продукции – на таможню, в складские помещения, перевозка продукции по торговым точкам</li>
-			
-			<li>Вывоз строительного мусора</li>
-		</ul>
-				<img class="q" src="images/q.jpg" width="1200" height="575"/>
-	</div>
-		<h1 id="zz">Преимущества сотрудничества с нами:</h1>
-		<h3>В нашей компании есть все, что вам нужно для быстрой и успешной транспортировки любого типа груза. У нас работают профессиональные грузчики, а также в обиходе имеется все необходимое оборудование для осуществления погрузочно-разгрузочных и транспортировочных работ.</h3>
-	<div class="spisok">
-		<ul type="circle">
-			<li>Мы гарантируем быстроту при выполнении каждого заказа, точно укладываясь в оговоренные сроки</li>
-			<li>Предоставляем гарантии сохранности и целостности перевозимых мебельных конструкций и другого габаритного имущества</li>
-			<li>В нашем распоряжении имеется собственный автопарк и техническая база</li>
-			<li>Мы предлагаем конкурентные и весьма выгодные цены на все услуги</li>
-		</ul>
-	</div>
-	 </div>
-	<div class="menu">
-		<p id="zhirniy" class="kursiv">PerevezemGruz SINCE 2016 </p>
-	</div>
-</div>
-</div>
-</body>
+<footer class="fixblock">ПеревеземГруз - перевозчик, которому доверяют тысячи</footer>
+  </body>
 </html>
