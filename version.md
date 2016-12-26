@@ -6,3 +6,5 @@ Full site tranformation and cosmetic revision
 Small cosmetic revision
 #version 0.1.2
 Cosmetic update of homepage
+#version 1.0.0
+Full design update
