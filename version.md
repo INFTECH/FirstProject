@@ -8,3 +8,5 @@ Small cosmetic revision
 Cosmetic update of homepage
 #version 1.0.0
 Full design update
+#version 1.0.1
+deleted old pages,added modal window
